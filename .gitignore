@@ -1,0 +1,14 @@
+# Data outputs (committed selectively or not at all)
+*.csv
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
