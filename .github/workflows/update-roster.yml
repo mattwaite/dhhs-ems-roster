@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pdfplumber pytest
+        run: pip install -r requirements.txt
 
       - name: Set date variable
         id: date
